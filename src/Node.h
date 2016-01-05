@@ -13,12 +13,12 @@ using namespace std;
 
 class Node {
 private:
-	string _name;
+	string _item;
 	Node* _next;
 public:
 	Node(string name);
 	virtual ~Node();
-	string getName();
+	string getItem();
     Node *getNext();
 	friend class List;
 };

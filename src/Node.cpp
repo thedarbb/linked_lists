@@ -7,7 +7,7 @@
 
 #include "Node.h"
 
-Node::Node(string name): _name(name) , _next(NULL){
+Node::Node(string item): _item(item) , _next(NULL){
 
 }
 
@@ -22,9 +22,9 @@ Node *Node::getNext()
     return _next;
 }
 
-string Node::getName()
+string Node::getItem()
 {
-	return _name;
+	return _item;
 }
 
 
