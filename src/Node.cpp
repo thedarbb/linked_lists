@@ -2,7 +2,7 @@
  * Node.cpp
  *
  *  Created on: Jan 5, 2016
- *      Author: raydelto
+ *      Author: thedarbb
  */
 
 #include "Node.h"
